@@ -13,3 +13,4 @@
 - >Rothko Painting<br>https://karanshah254.github.io/FreeCodeCamp/RothkoPainting/
 - >CSS FlexBox Photo Gallery<br>https://karanshah254.github.io/FreeCodeCamp/CSSFlexbox/ 
 - >Nutrition Label<br>https://karanshah254.github.io/FreeCodeCamp/NutritionLabel/
+- >HTML/CSS Quiz<br>https://karanshah254.github.io/FreeCodeCamp/Quiz/
