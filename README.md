@@ -3,6 +3,7 @@
 ## Certification Projects
 
 - >Survey Form<br>https://karanshah254.github.io/FreeCodeCamp/SurveyForm/
+- >Tribute Page<br>https://karanshah254.github.io/FreeCodeCamp/TributePage/
 
 ## Projects
 
