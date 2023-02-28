@@ -16,4 +16,4 @@
 - >Nutrition Label<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/NutritionLabel/
 - >Accessibility Quiz<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Quiz/
 - >Balance Sheet<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/BalanceSheet/
-- >Picasso Painitng<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/PicassoPainitng/
+- >Picasso Painitng<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/PicassoPainting/
