@@ -23,3 +23,4 @@
 - >Picasso Painitng<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/PicassoPainting/
 - >Piano Building<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Piano/
 - >City Skyline<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/CitySkyline/
+- >Ferris Wheel Animation<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/FerrisWheel/
