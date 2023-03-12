@@ -24,3 +24,4 @@
 - >Piano Building<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Piano/
 - >City Skyline<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/CitySkyline/
 - >Ferris Wheel Animation<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/FerrisWheel/
+- >Penguin Animation<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Penguin-Animation/
