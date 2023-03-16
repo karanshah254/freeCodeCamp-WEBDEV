@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="icon"
+        href="data:image/png;base64,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">
+</head>
+
+<body>
+    <!--Header(start)-->
+    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td>
+
+
+                        </td>
+
+                        <td>
+                            <font face="Comic sans MS" size="6">
+                                <b><u> Hey Coders!! </u></b>
+
+                            </font>
+                        </td>
+
+                        <td width="15%">
+
+                        </td>
+
+
+
+                        <td>
+                            <a href="#about" style="text-decoration:none">
+                                <font face="Verdana" size="5" color=black>
+                                    About
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#projects" style="text-decoration:none">
+                                <font face="Verdana" size="5" color=black>
+                                    Projects
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#achievements" style="text-decoration:none">
+                                <font face="Verdana" size="5" color=black>
+                                    Achievements
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#contact" style="text-decoration:none">
+                                <font face="Verdana" size="5" color=black>
+                                    Contact
+                                </font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Header(end)-->
+
+    <!--Home(start)-->
+    <table id="home" border="1" width="100%" cellpadding="20" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td align="center" valign="middle">
+                            <h3>
+                                <font face="Times New Roman" size="6" color="#ffffff">
+                                    Welcome To My Personal Website
+                                </font>
+                                <hr color="white" width="420">
+                            </h3>
+
+                            <h2>
+                                <font face="Verdana" size="6" color="#4CAF50">
+                                    <!-- Freelance Programmer -->
+                                </font>
+                            </h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Home(end)-->
+
+
+    <!--About(start)-->
+    <table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="7" color="#4CAF50">
+                                <b> More About Me</b>
+                            </font>
+                            <hr color="#4CAF50" width="380">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="40%">
+                            <img src="./NMQS9511.JPG" width="400" height="400">
+                        </td>
+
+                        <td width="60%">
+                            <font face="Verdana" size="4" color="white">
+                                <p> &#9658 Thanks for your interest, here
+                                    is a quick story of me and this
+                                    website.</p>
+
+                                <p> &#9658
+                                    Hey Coders! Myself Karan Shah,
+                                    a Web-Devloper & Programmer in different
+                                    Languages.
+                                </p>
+                                <hr color="black">
+
+                                <p> &#9658
+                                    Currently, I am pursuing Computer Engineering at
+                                    Vishwakarma Goverment Engineering College,
+                                    Chandkheda, Ahmedabad
+                                </p>
+                                <hr color="black">
+
+                                <p> &#9658
+                                    I do my work mainly in C-Language,
+                                    C++ & Web-Devlopment in HTML, CSS, JavaScript.
+                                    Also you can visit my
+                                    <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/PortfolioProject/"
+                                        target="_blank">Portfolio</a> for
+                                    more projects details.
+                                </p>
+                                <hr color="black">
+
+                                <p> &#9658
+                                    I am looking forward for more exciting projects as well.
+                                </p>
+                                <hr color="black">
+
+                                <p> &#9658
+                                    This website is basically one of my
+                                    Web Development project which is
+                                    built using HTML with inline CSS.
+                                </p>
+                                <hr color="black">
+
+                                <p> &#9658
+                                    Thanks again for reading this.
+                                </p>
+                                <hr color="black">
+
+                                Yours,
+                                <br>
+                                <b>Karan Shah</b>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                <hr color="black">
+                <hr color="black">
+                <hr color="black">
+            </td>
+        </tr>
+    </table>
+    <!--About(end)-->
+
+
+    <!--Projects(start)-->
+    <table id="projects" border="0" width="100%" cellpadding="0" cellspacing="0" style="background-color: aliceblue
+    ;">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="7" color="black">
+                                &#9658 Some of my Projects
+                            </font>
+                            <hr color="black" width="500">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="10">
+                            <font face="Times New Roman" size="5" color="black">
+                                <ul>
+                                    <li>
+                                        Rothko Painting
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/RothkoPainting/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Calculator Using JS
+                                        <a href="https://karanshah254.github.io/Projects-using-HTML-CSS-JS/Calculator/"
+                                            style="text-decoration:none" color="#c2c0c3" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Tic Tac Toe Game in JS
+                                        <a href="https://karanshah254.github.io/Projects-using-HTML-CSS-JS/Tic-tac-Toe-Game/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Search Engine Clone
+                                        <a href="https://karanshah254.github.io/Projects-using-HTML-CSS-JS/Search-Engine/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Penguin Animation
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/Penguin-Animation/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Accesibility Quiz
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/Quiz/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Tribute Page
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/TributePage/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Documentation Page
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/TechnicalDocumentationPage/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Product Landing Page
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/ProductLandingPage/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Picasso Painting
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/PicassoPainting/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Doreamon Clone By HTML & CSS
+                                        <a href="https://karanshah254.github.io/Projects-using-HTML-CSS-JS/DoremonClone/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        City Skyline
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/CitySkyline/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Magazine Project
+                                        <a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/MagazineProject/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲ </a>
+                                    </li>
+
+
+                                </ul>
+
+                            </font>
+                        </td>
+
+                        <td width="45%">
+                            <img src="https://www.turing.com/blog/wp-content/uploads/2022/02/programminng-languages-for-ai-scaled.jpg"
+                                alt="Project" width="100%">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Projects(end)-->
+
+
+    <!--Achievement(start)-->
+    <table id="achievements" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle">
+                            <font face="Verdana" size="7" color="#4CAF50">
+                                Achievements
+                                <hr color="#4CAF50" width="300">
+                            </font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <font face="Verdana" size="4" color="white">
+                                <ul>
+                                    <li>
+                                        <b>Core Coder</b>
+                                        <ul>
+                                            <li>
+                                                July,2022 - Present
+                                            </li>
+                                            <li>
+                                                At C-TAG Institute
+                                                in Ahmedabad,Gujarat,India
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <b>Many More to be added . . . .</b>
+                                        <ul>
+
+                                        </ul>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Till then Stay Tuned</b>
+                                    </li>
+
+                                </ul>
+
+                            </font>
+                        </td>
+
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Achievement(end)-->
+
+    <!--Contact(start)-->
+    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" style="background-color: aliceblue;">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="7" color="black">
+                                Contacts
+                            </font>
+                            <hr color="black" width="150">
+                        </td>
+                    </tr>
+
+
+                </table>
+                <!--Contact(end)-->
+
+
+                <!--Footer1(start)-->
+                <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="5"
+                    style="background-color: yellowgreen;">
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="20" cellspacing="0" width="90%" align="center"
+                                style="font-size: larger;">
+                                <tr>
+                                    <td width="15%" valign="top">
+                                        <b>LinkedIn</b>
+                                        <a href="https://www.linkedin.com/in/karan-shah-9a040b265/"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </td>
+
+                                    <td>
+                                        |
+                                    </td>
+
+                                    <td width="15%" valign="top">
+                                        <b>GitHub</b>
+                                        <a href="https://github.com/karanshah254" style="text-decoration:none"
+                                            target="_blank">
+                                            ➲
+                                        </a>
+                                    </td>
+
+                                    <td>
+                                        |
+                                    </td>
+
+                                    <td width="15%" valign="top">
+                                        <b>Instagram</b>
+                                        <a href="https://www.instagram.com/karan_shah_254/" style="text-decoration:none"
+                                            target="_blank">
+                                            ➲
+                                        </a>
+                                    </td>
+
+                                    <td>
+                                        |
+                                    </td>
+
+                                    <td width="15%" valign="top">
+                                        <b>FaceBook</b>
+                                        <a href="https://www.facebook.com/profile.php?id=100085269405522"
+                                            style="text-decoration:none" target="_blank">
+                                            ➲
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!--Footer1(end)-->
+
+
+
+
+</body>
+
+</html>
