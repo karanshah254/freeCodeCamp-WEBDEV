@@ -26,3 +26,4 @@
 - >Magazine Project<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/MagazineProject/
 - >Ferris Wheel Animation<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/FerrisWheel/
 - >Penguin Animation<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Penguin-Animation/
+- >Cat Painting<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Cat-Painting/
