@@ -1,4 +1,12 @@
 # freeCodeCamp-WEB-Design
+# Certificate
+
+- >Completion Certificate<br>https://www.freecodecamp.org/certification/karan_shah_007/responsive-web-design
+
+# Personal Website
+
+- >My Personal Website<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/First-Website/
+- >My Portfolio Project<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/PortfolioProject/
 
 ## Certification Projects
 
