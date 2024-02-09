@@ -1,5 +1,5 @@
 # freeCodeCamp-WEB-Design
-# Certificate
+# Certification
 
 - >Completion Certificate<br>https://www.freecodecamp.org/certification/karan_shah_007/responsive-web-design
 
