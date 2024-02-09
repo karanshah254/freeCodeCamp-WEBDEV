@@ -35,3 +35,5 @@
 - >Ferris Wheel Animation<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/FerrisWheel/
 - >Penguin Animation<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Penguin-Animation/
 - >Cat Painting<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/Cat-Painting/
+- >Sample Quix using JavaScript<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/other/Sample-quiz/
+- >Sample Registration Form<br>https://karanshah254.github.io/freeCodeCamp-WEBDEV/other/registration-form/
